@@ -118,6 +118,7 @@ end
 
 group :production do
   gem 'rack', '> 1.5.0'
+  gem 'unicorn'
 end
 
 # Platform requirements.
